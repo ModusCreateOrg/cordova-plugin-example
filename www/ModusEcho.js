@@ -5,10 +5,9 @@ exports.echo = function(arg0, success, error) {
 };
 
 exports.echojs = function(arg0, success, error) {
-	// Do something to check arg0...
     if (arg0 && typeof(arg0) === 'string' && arg0.length > 0) {
 	   success(arg0);
     } else {
-        error('Empty message!');
+       error('Empty message!');
     }
 };
