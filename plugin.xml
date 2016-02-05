@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin id="com-moduscreate-plugins-echo" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>ModusEcho</name>
+    <description>Modus Create Demo Cordova Plugin</description>
+    <license>MIT</license>
+    <keywords>cordova,demo,modus</keywords>
     <js-module name="ModusEcho" src="www/ModusEcho.js">
         <clobbers target="modusecho" />
     </js-module>
