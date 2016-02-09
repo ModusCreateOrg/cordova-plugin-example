@@ -7,6 +7,7 @@
     <js-module name="ModusEcho" src="www/ModusEcho.js">
         <clobbers target="modusecho" />
     </js-module>
+    <hook type="after_plugin_add" src="hooks/after_plugin_add.js" />
 	<platform name="android">
 		<config-file target="config.xml" parent="/*">
 			<feature name="ModusEcho">
