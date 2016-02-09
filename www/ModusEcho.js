@@ -6,8 +6,8 @@ exports.echo = function(arg0, success, error) {
 
 exports.echojs = function(arg0, success, error) {
     if (arg0 && typeof(arg0) === 'string' && arg0.length > 0) {
-	   success(arg0);
+        success(arg0);
     } else {
-       error('Empty message!');
+        error('Empty message!');
     }
 };
