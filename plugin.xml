@@ -8,6 +8,17 @@
         <clobbers target="modusecho" />
     </js-module>
     <hook type="after_plugin_add" src="hooks/after_plugin_add.js" />
+    <platform name="browser">
+        <config-file target="config.xml" parent="/*">
+            <feature name="ModusEcho">
+                <param name="browser-package" value="ModusEcho" />
+            </feature>
+        </config-file>
+
+        <js-module src="src/browser/ModusEchoProxy.js" name="ModusEchoProxy">
+            <runs />
+        </js-module>
+    </platform>
 	<platform name="android">
 		<config-file target="config.xml" parent="/*">
 			<feature name="ModusEcho">
