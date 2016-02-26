@@ -1,6 +1,6 @@
 {
   "name": "modusecho",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Modus Create Demo Cordova Plugin",
   "cordova": {
     "id": "com-moduscreate-plugins-echo",
@@ -19,7 +19,8 @@
     "modus",
     "ecosystem:cordova",
     "cordova-android",
-    "cordova-ios"
+    "cordova-ios",
+    "cordova-browser"
   ],
   "author": "Modus Create",
   "license": "MIT",
