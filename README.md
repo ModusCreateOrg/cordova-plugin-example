@@ -1,6 +1,6 @@
 # Cordova Plugin Example
 
-Example Cordova plugin for iOS and Android to support blog post.
+Example Cordova plugin for iOS and Android to support [this blog post] (http://moduscreate.com/plugin-authoring-cordova-6-ios-android/).
 
 A simple Cordova plugin based on the echo plugin example from the [Cordova documentation](https://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html).
 
